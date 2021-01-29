@@ -16,6 +16,8 @@ object Principal extends App {
     .master("local[1]")
     .getOrCreate()
 
+
+
   //val sc = spark.sparkContext
   val sqlContext = spark.sqlContext
 
